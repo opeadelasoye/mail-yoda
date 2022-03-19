@@ -2,18 +2,18 @@
 <!--- You may delete any comments in this sample README.md file. Update information in this readme file with information from your work, and if there are sections that are marked "[OPTIONAL]" that you do not need in a specific section, simply delete them. Retain the other sections. --->
 # Assignment 4: CSCI 2170, Winter 2022
 
-Date Created: DD MMM YYYY
-Last Modification Date: DD MMM YYYY
-Gitlab URL: https://git.cs.dal.ca/CORRECT-URL-FOR-YOUR-SUBMISSION
+Date Created: 03 MAR 2022
+Last Modification Date: 03 MAR 2022
+Gitlab URL: https://git.cs.dal.ca/courses/2022-winter/csci-2170/a4/onaopemipo
 
 ## Author(s)
 
-- Full Name: <Your Name Here>
-- Email: email@dal.ca
+- Full Name: Ope Remi-Adelasoye
+- Email: on861917@dal.ca
 
 ## Description
 
-One Paragraph of project description goes here.
+Welcome to MailYoda. MailYoda is an email service in the works.
 
 ## Getting Started
 
@@ -21,10 +21,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Are there any dependencies? Are there things to keep in mind when testing this code?
-
 ```
-Give examples
+Make sure your MySQL server is running and your database is connected
 ```
 
 ## Running the tests [OPTIONAL]
@@ -37,5 +35,8 @@ Give examples
 ```
 
 ## Citations/Attributions
-1. Include citations in this format:
-Author/Website URL, Content used from the source, Year published (if available), and Date accessed.
+
+## Image Citations
+1. Alberto Piccini. 2007. profile. Retrieved March 2, 2022 from https://www.flickr.com/photos/maestroalberto/2100142795/in/photostream/
+
+## Attributions
