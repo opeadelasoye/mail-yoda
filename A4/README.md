@@ -3,7 +3,7 @@
 # Assignment 4: CSCI 2170, Winter 2022
 
 Date Created: 19 MAR 2022
-Last Modification Date: 19 MAR 2022
+Last Modification Date: 23 MAR 2022
 Gitlab URL: https://git.cs.dal.ca/courses/2022-winter/csci-2170/a4/onaopemipo
 
 ## Author(s)
@@ -37,7 +37,11 @@ Give examples
 ## Citations/Attributions
 
 ## Image Citations
-1. Alberto Piccini. 2007. profile. Retrieved March 2, 2022 from https://www.flickr.com/photos/maestroalberto/2100142795/in/photostream/
+1. Alberto Piccini. 2007. profile. Retrieved March 19, 2022 from https://www.flickr.com/photos/maestroalberto/2100142795/in/photostream/
+
+2. Lue Hang. 2017. mail_logo. Retrieved March 23, 2022 from https://www.flickr.com/photos/155044863@N02/37118765093/in/
 
 ## Attributions
-2. https://www.php.net/manual/en/function.session-destroy.php, Session Destroy, 2022, March 19, 2022
+3. https://www.php.net/manual/en/function.session-destroy.php, Session Destroy, 2022, March 19, 2022
+
+4. https://getbootstrap.com/docs/4.1/getting-started/introduction/, Bootstrap CDN, 2011, March 23, 2022 

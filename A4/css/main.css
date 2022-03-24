@@ -1,0 +1,43 @@
+/* This code contains code re-used from code for my A3 in this course. This code is used with Prof. Raghav Sampangi's permission. 
+This code is used as a starting point for my solution for A4. */
+
+.footer {
+	color: white;
+	background-color: black;
+}
+
+#empty-links{
+	text-decoration: none;
+	color: white;
+}
+
+#navigation{
+    height: 50px;
+	background-color: lightblue;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    background-color: lightblue;
+}
+
+.nav-item{
+	height: 50px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#nav-item-text{
+	color: #0059;
+}
+
+#dropdownMenuLink{
+	background-color: lightblue;
+	border: none;
+	color: #0059;
+}
+
+#register-link{
+	text-align: center;
+}
