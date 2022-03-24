@@ -10,6 +10,16 @@ This code is used as a starting point for my solution for A4. -->
     if(isset($_REQUEST["email"]) && isset($_REQUEST["password"])){
         $email = sanitizeData($_POST["email"]);
         $password = sanitizeData($_POST["password"]);
+
+        $sql = "SELECT je_login_email, je_login_password FROM je_login WHERE '$email' = je_login_email;";
+        $result = $database->query($sql);
+        $row = $result->fetch_assoc();
+
+        if($result->num_rows == 0){
+            header("Location: ../index.php");
+        }else if(password_verify($password, $row["je_login_password"])){
+            $password = $row["je_login_password"];    
+        }
         $sql = "SELECT je_user_id, je_user_firstname, je_user_lastname, je_user_role, je_user_suspended, je_login_email, je_login_password
                     FROM je_users
                     JOIN je_login ON (je_user_id = je_login_id)

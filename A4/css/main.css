@@ -38,6 +38,6 @@ This code is used as a starting point for my solution for A4. */
 	color: #0059;
 }
 
-#register-link{
+#register-link, #login-link{
 	text-align: center;
 }
