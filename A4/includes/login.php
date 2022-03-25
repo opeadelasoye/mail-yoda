@@ -39,5 +39,5 @@ This code is used as a starting point for my solution for A4. -->
         $_SESSSION['user-suspended'] = $row["je_user_suspended"];
     }
 
-    header("Location: ../index.php");
+    header("Location: ../index.php?view=inbox");
 ?>

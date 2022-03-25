@@ -10,19 +10,32 @@ This code is used as a starting point for my solution for A4. -->
     $pageHeader = "Login Page";
     $css = "css/main.css";
     $logo = "img/logo.jpg";
-    $inbox = "#";
-    $sent_drafts = "#";
-    $compose = "#";
+    $inbox = "?view=inbox";
+    $sent_drafts = "?view=sentdrafts";
+    $compose = "?view=compose";
     $user_name = null;
     $sessionStarted = false;
+    $queryString = null;
 
     if(isset($_SESSION['user-ID'])){
         $sessionStarted = true;
         $user_name = $_SESSION['user-firstname'] . " " . $_SESSION['user-lastname'];
-        $pageHeader = "Inbox";
+        $queryString = $_GET['view'];
+
+        switch ($queryString){
+            case "inbox":
+                $pageHeader = "Inbox";
+                break;
+            case "sentdrafts":
+                $pageHeader = "Sent/Drafts";
+                break;
+            case "compose":
+                $pageHeader = "Compose";
+        }
     }
 
     getHeader($sessionStarted, $pageHeader, $css, $logo, $inbox, $sent_drafts, $compose, $user_name);
+
 ?>
 
 
@@ -48,9 +61,19 @@ This code is used as a starting point for my solution for A4. -->
         <?php
             }else{
         ?>
-        <div>
-            
-        </div>
+        <br>
+        <?php
+                switch ($pageHeader){
+                    case "Inbox":
+                        require "includes/inbox.php";
+                        break;
+                    case "Sent/Drafts":
+                        require "includes/sentdrafts.php";
+                        break;
+                    case "Compose":
+                        require "includes/compose.php";
+                }
+        ?>
         <?php
             }
         ?>
