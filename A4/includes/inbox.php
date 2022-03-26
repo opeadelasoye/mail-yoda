@@ -34,7 +34,7 @@
 
     <div><p>Subject: <?php echo $subject ?></p></a></div>
     <hr>
-    <div><p><?php echo $content ?></p></div>
+    <div><p><?php if($encrypted == 1){echo "*This email is encrypted*<br><br>$content";}else{echo $content;} ?></p></div>
 </div>
 <?php
     }else{

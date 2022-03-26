@@ -24,7 +24,6 @@
         $date = $_SESSION['date-' . $ID];
         $to = $_SESSION['to-' . $ID];
         $encrypted = $_SESSION['encrypted-' . $ID];
-        $draft = $_SESSION['draft-' . $ID];
 ?>
 <div class="row">
     <div class="col-6">
@@ -36,7 +35,7 @@
 
     <div><p>Subject: <?php echo $subject ?></p></a></div>
     <hr>
-    <div><p><?php echo $content ?></p></div>
+    <div><p><?php if($encrypted == 1){echo "*This email is encrypted*<br><br>$content";}else{echo $content;} ?></p></div>
 </div>
 <?php
     }else{
@@ -46,14 +45,14 @@
             $subject = $_SESSION['subject-' . $ID];
             $date = $_SESSION['date-' . $ID];
             $to = $_SESSION['to-' . $ID];
-            $encrypted = $_SESSION['encrypted-' . $ID];
+            $draft = $_SESSION['draft-' . $ID];
 ?>
 <div class="row">
     <div class="col-6">
         <p>To: <?php echo $to ?></p>    
     </div>
     <div class="col-6">
-        <p>Date Sent/Saved: <?php echo $date ?></p>
+        <p>Date <?php if($draft == 1){echo "Saved: $date";}else{echo "Sent: $date";}?></p>
     </div>
 
     <div><p>Subject: <a href="?view=sentdrafts&mail=<?php echo$ID?>"><?php echo $subject ?></p></a></div>

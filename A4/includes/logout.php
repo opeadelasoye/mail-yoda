@@ -9,7 +9,7 @@
     /* Session destroy/unset functionality used from Example #1 in PHP.net
 	   Authors: PHP.net contributors
 	   URL: https://www.php.net/manual/en/function.session-destroy.php
-	   Date accessed: 03==19 MAR 2022
+	   Date accessed: 19 MAR 2022
 	*/
     
     // Initialize the session.

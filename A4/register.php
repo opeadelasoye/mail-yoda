@@ -1,3 +1,6 @@
+<!-- This code contains code re-used from code for my A3 in this course. This code is used with Prof. Raghav Sampangi's permission. 
+This code is used as a starting point for my solution for A4. -->
+
 <?php
     ini_set('display_errors', 1);
 

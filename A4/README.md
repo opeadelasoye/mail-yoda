@@ -3,7 +3,7 @@
 # Assignment 4: CSCI 2170, Winter 2022
 
 Date Created: 19 MAR 2022
-Last Modification Date: 23 MAR 2022
+Last Modification Date: 26 MAR 2022
 Gitlab URL: https://git.cs.dal.ca/courses/2022-winter/csci-2170/a4/onaopemipo
 
 ## Author(s)
@@ -13,11 +13,13 @@ Gitlab URL: https://git.cs.dal.ca/courses/2022-winter/csci-2170/a4/onaopemipo
 
 ## Description
 
-Welcome to MailYoda. MailYoda is an email service in the works.
+Welcome to MailYoda. MailYoda is an email service used to send and receive emails. With MailYoda, you have the option to send and save encrypted emails.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1. Run MYSQL Server on MAMP
+2. Make sure database is present in phpMyAdmin
+3. Run localhost/assignment-folder/index.php to begin!
 
 ### Prerequisites
 
@@ -45,3 +47,9 @@ Give examples
 3. https://www.php.net/manual/en/function.session-destroy.php, Session Destroy, 2022, March 19, 2022
 
 4. https://getbootstrap.com/docs/4.1/getting-started/introduction/, Bootstrap CDN, 2011, March 23, 2022 
+
+5. https://learn.zybooks.com/zybook/DALCSCI2170SampangiWinter2022/, PHP Syntax, 2022, March 23, 2022
+
+6. https://www.php.net/manual/en/function.explode.php, Explode, 2022, March 26, 2022
+
+7. https://www.php.net/manual/en/function.chr.php, chr, 2022, March 26, 2022
